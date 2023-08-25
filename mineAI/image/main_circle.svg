@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="483" height="152" viewBox="0 0 483 152">
+  <g id="グループ_840" data-name="グループ 840" transform="translate(-148 -472)">
+    <circle id="楕円形_1" data-name="楕円形 1" cx="76" cy="76" r="76" transform="translate(148 472)" fill="#a981fc"/>
+    <circle id="楕円形_2" data-name="楕円形 2" cx="76" cy="76" r="76" transform="translate(313 472)" fill="#a981fc"/>
+    <circle id="楕円形_3" data-name="楕円形 3" cx="76" cy="76" r="76" transform="translate(479 472)" fill="#a981fc"/>
+    <text id="初心者安心_サポート充実" data-name="初心者安心
+サポート充実" transform="translate(224 540)" fill="#fff" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-45" y="0">初心者安心</tspan><tspan x="-54" y="29">サポート充実</tspan></text>
+    <text id="給付金対象_コース" data-name="給付金対象
+コース" transform="translate(389 540)" fill="#fff" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-45" y="0">給付金対象</tspan><tspan x="-27" y="29">コース</tspan></text>
+    <text id="オンライン_完結OK" data-name="オンライン
+完結OK" transform="translate(555 540)" fill="#fff" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-45" y="0">オンライン</tspan><tspan x="-31.329" y="29">完結OK</tspan></text>
+  </g>
+</svg>

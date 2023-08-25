@@ -1,0 +1,605 @@
+@charset "UTF-8";
+
+body{
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  background-color: #FEE1FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-image: url(../image/main.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 92px;
+}
+
+.header__top__wrap {
+    margin: auto;
+    max-width: 1252px;
+    padding: 20px 0 10px 0;
+}
+
+.header__main__wrap {
+    margin: auto;
+    max-width: 1067px;
+    padding: 116px 0 144px;
+}
+
+h1 {
+    font-family:  "游ゴシック体", YuGothic, "游ゴシック Bold", "Yu Gothic Bold", "游ゴシック", "Yu Gothic", sans-serif;;
+    background: rgb(255, 255, 255);
+    display: table;
+    /* margin: 10px 0px; */
+    padding: 0.25em 0.25em 0.12em;
+    color: #A981FC;
+    font-size: 47px;
+    line-height: 1;
+}
+
+h2 {
+    font-family:  "游ゴシック体", YuGothic, "游ゴシック Bold", "Yu Gothic Bold", "游ゴシック", "Yu Gothic", sans-serif;;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    letter-spacing: 17px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 24px;
+    color: #A981FC;
+}
+
+h4 {
+    font-family:  "游ゴシック体", YuGothic, "游ゴシック Bold", "Yu Gothic Bold", "游ゴシック", "Yu Gothic", sans-serif;;
+    color: #A981FC;
+    font-size: 25px;
+}
+
+h5 {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    max-width: 1067px;
+}
+
+
+/* ----  ここまで基本設定　---- */
+
+#maintitle {
+    font-size: 103px;
+}
+
+.main_circle {
+    margin: 78px 0 0 0;
+}
+
+.btn {
+    /* display: flex; */
+    position: fixed;
+    right: 0; 
+    float: right;
+    margin: 0 0 0 auto;
+    padding: 100px 0 0 0;
+}
+
+.btn img {
+    transition: filter 0.3s ease;
+}
+
+.btn:hover {
+    filter: brightness(120%);
+}
+
+.s01__wrap {
+    padding: 145px 250px 145px 250px;
+    background-image: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+.future-sent{
+    margin-top:170px;
+}
+
+.s01__wrap p {
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+.s01__wrap h2 {
+    font-size: 27px;
+}
+
+.s02__wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.s02__wrap {
+    padding: 0px 0px 145px 0px;
+}
+
+.text {
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.text h4 {
+    margin-bottom: 5px;
+}
+
+.text p {
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1067px;
+}
+.aboutbox {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+.box-content img {
+    width: 160px;
+    margin: 0 10px 0 0;
+}
+
+.heading {
+    position: relative;
+    text-align: center; /* 文字の中央寄せ */
+}
+
+.heading::before {
+    background-color: #A981FC; /* 線の色 */
+    border-radius: 5px; /* 線の両端を丸く */
+    bottom: -10px; /* 線の位置 */
+    content: "";
+    height: 3px; /* 線の高さ */
+    left: 50%; /* 線の中央寄せ */
+    position: absolute;
+    transform: translateX(-50%); /* 線の中央寄せ */
+    width: 30px; /* 線の長さ */
+}
+
+.s03__wrap {
+    padding: 0px 250px 145px 250px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.check {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.check img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.check h2 {
+    margin: 0;
+}
+
+.image-box img {
+    width: 300px;
+    margin: 0 0 0 auto;
+}
+
+.textlist {
+    display: block;
+}
+
+.s04__wrap {
+    background-color: #fff;
+    padding: 145px 250px 145px 250px;
+}
+
+.point-top {
+    text-align: center;
+}
+
+.point-top h2 span {
+    font-size: 27px;
+    background: linear-gradient(transparent 72%,#FFD500 0);
+}
+
+.point02 {
+    margin-bottom: 70px;
+}
+
+.home-school{
+    display: block;
+    width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 70px;
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-1 li {
+    width: 393px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 47px 45px 47px 45px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid 1px #A981FC;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+   
+}
+.box-1 h2 {
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+
+.item1 p {
+    font-size: 14px;
+    padding: 29px 0 37px 0;
+    line-height: 25px;
+}
+
+.item2 p span {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.item2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item2 p {
+    font-size: 14px;
+}
+
+.item2:nth-child(4) {
+    color: #A981FC;
+}
+
+.txt2 {
+    background: #A981FC;
+    color: #fff;
+    display: table;
+    font-size: 14px;
+    padding: 8px 0 8px 0;
+    border-radius: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.txt2 p {
+    text-align: center;
+}
+
+.txt2 span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD500;
+}
+.point02txt {
+    margin-bottom: 44px;
+    line-height: 30px;
+}
+
+.point03 {
+    margin-bottom: 70px;
+}
+
+.point03-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point03 p {
+    text-align: left;
+    line-height: 30px;
+}
+
+.point03 p span {
+    font-size: 14px;
+}
+
+.ctabutton-center a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: 570px;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(-225deg,#FF6DF7 0,#A981FC 56%, #6B8EFF 100%);
+    border-radius: 100px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0 0 32px -17px #000000;
+    transition-duration: .4s;
+}
+
+.ctabutton-center a:hover{
+    transform: scale(1.1);
+}
+
+.ctabutton-center a span {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.wrap_qa {
+    padding: 145px 285px;
+}
+
+.accordion {
+    display: block;
+    margin: 0 auto;
+}
+  
+/* inputのチェックボックスを非表示 */
+.accordion-hidden {
+display: none;
+}
+
+/* 見出しボタン部分 */
+.accordion-open {
+display: block;
+padding: 17px 80px 17px 17px;
+background: #A981FC;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+border-radius: 40px;
+cursor: pointer;
+margin: 7px 0;
+position: relative;
+}
+
+/* ＋アイコン */
+.accordion-open::before,
+.accordion-open::after {
+content: '';
+width: 20px;
+height: 3px;
+background: #fff;
+position: absolute;
+top: 50%;
+right: 5%;
+transform: translateY(-50%);
+}
+
+/* アイコンのー */
+.accordion-open::after {
+transform: translateY(-50%) rotate(90deg);
+transition: .5s;
+}
+
+/* アコーディオンが開いたらーに */
+.accordion-hidden:checked+.accordion-open:after {
+transform: translateY(-50%) rotate(0);
+}
+
+/* アコーディオン中身部分 */
+.accordion-inner {
+display: block;
+height: 0;
+overflow: hidden;
+padding: 0;
+opacity: 0;
+transition: 0.5s;
+/* 表示速度の設定 */
+cursor: pointer;
+}
+
+/* チェックボックスにチェックが入ったら中身部分を表示する */
+.accordion-hidden:checked+.accordion-open+.accordion-inner {
+height: auto;
+opacity: 1;
+padding: 10px;
+}
+/* ↑ここまで共通 */
+
+
+/* Q&A追加 */
+.accordion_qa .Q,
+.accordion_qa .A {
+position: relative;
+}
+
+.accordion_qa .Q::before,
+.accordion_qa .A::before {
+font-size: 20px;
+font-weight: bold;
+display: block;
+position: absolute;
+left: -1.3em;
+}
+
+.accordion_qa .Q::before {
+content: 'Q.';
+}
+
+.accordion_qa .A::before {
+content: 'A.';
+color: #000000;
+}
+
+.accordion_qa .accordion-open {
+padding-left: 2.5em;
+}
+
+.accordion_qa .accordion-hidden:checked+.accordion-open+.accordion-inner {
+height: auto;
+opacity: 1;
+padding: 10px 10px 10px 2.5em;
+background: #fff;
+width: 810px;
+display: block;
+margin: 0 auto;
+}
+/* Q&A追加ここまで */
+
+
+/* 中にいろいろ入れたいとき */
+.accordion-box {
+display: block;
+height: 0;
+overflow: hidden;
+padding: 0;
+opacity: 0;
+transition: 1s;
+}
+
+.accordion-hidden:checked+.accordion-open+.accordion-box {
+height: auto;
+opacity: 1;
+padding: 10px;
+}
+
+.s05__wrap {
+background-color: #fff;
+padding: 145px 250px;
+}
+
+.s05__wrap .box-1 p {
+    font-size: 16px;
+}
+
+.s05__wrap .box-1 li {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 20px 33px;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 70px;
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-2 li {
+    width: 300px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 20px 33px 30px 33px;
+    text-align: center;
+    border-radius: 40px;
+    border: solid 1px #A981FC;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+   
+}
+.box-2 h2 {
+    font-size: 16px;
+    margin-bottom: 27px;
+    color: #A981FC;
+}
+
+.item5 p {
+    font-size: 14px;
+    margin-top: 22px;
+    line-height: 25px;
+}
+
+.item5 img {
+    height: 92px;
+}
+
+.ctabutton-center02 a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    width: 570px;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(-225deg,#FF6DF7 0,#A981FC 56%, #6B8EFF 100%);
+    border-radius: 100px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0 0 32px -17px #000000;
+    transition-duration: .4s;
+}
+
+.ctabutton-center02 a:hover {
+    transform: scale(1.1);
+}
+
+.ctabutton-center02 a span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fade-in {
+    opacity: 0; /* 初期状態では透明にする */
+    transform: translateY(50px); /* 初期位置を下にずらす */
+    transition: opacity 1.5s, transform 1.5s; /* アニメーションの設定 */
+  }
+  
+  .fade-in.show {
+    opacity: 1; /* 表示時に不透明にする */
+    transform: translateY(0); /* 上方向に移動する */
+  }
